@@ -25,13 +25,32 @@ const Footer = () => {
           {/* 2. Quick Links */}
           <div>
             <h3 className="text-white text-sm font-medium mb-3">Quick Links</h3>
-            <ul className="space-y-2 text-gray-400 text-sm">
-              <li className="hover:text-white transition cursor-pointer">Home</li>
-              <li className="hover:text-white transition cursor-pointer">About</li>
-              <li className="hover:text-white transition cursor-pointer">Projects</li>
-              <li className="hover:text-white transition cursor-pointer">Contact</li>
-            </ul>
-          </div>
+              <ul className="space-y-2 text-gray-400 text-sm">
+                <li>
+                  <a href="#home" className="hover:text-white transition">
+                    Home
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#about" className="hover:text-white transition">
+                    About
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#projects" className="hover:text-white transition">
+                    Projects
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#contact" className="hover:text-white transition">
+                    Contact
+                  </a>
+                </li>
+              </ul>
+            </div>
 
           {/* 3. CTA + Social */}
           <div>
@@ -40,15 +59,15 @@ const Footer = () => {
             </h3>
 
             <a
-              href="mailto:yourmail@gmail.com"
+              href="mailto:mihirshirsath2308@gmail.com"
               className="text-sm text-gray-400 hover:text-white transition"
             >
-              yourmail@gmail.com
+              mihirshirsath2308@gmail.com
             </a>
 
             <div className="flex gap-4 mt-5 text-gray-400">
               <a
-                href="https://github.com/yourusername"
+                href="https://github.com/CoderOnWheel"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-white hover:scale-110 transition"
@@ -57,7 +76,7 @@ const Footer = () => {
               </a>
 
               <a
-                href="https://linkedin.com/in/yourusername"
+                href="www.linkedin.com/in/mihir-shirsath"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-blue-400 hover:scale-110 transition"
@@ -66,7 +85,7 @@ const Footer = () => {
               </a>
 
               <a
-                href="https://instagram.com/yourusername"
+                href="https://instagram.com/mihir__179"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-pink-400 hover:scale-110 transition"

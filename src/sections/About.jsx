@@ -3,6 +3,8 @@ import SectionTitle from "../components/ui/SectionTitle";
 import Button from "../components/ui/Button";
 import FadeIn2 from "../components/ui/Fadein2";
 
+
+
 const About = () => {
   return (
     <section id="about" className="py-24 bg-black relative z-10">
@@ -37,7 +39,12 @@ const About = () => {
 
               {/* CTA */}
               <div className="mt-8">
-                <Button>Download CV</Button>
+                <a href="/mihirportfolio/src/assets/images/resume/Mihir_Shirsath_DataEngineer.pdf" download="Mihir_Shirsath_Resume.pdf">
+                <Button className="bg-cyan-500/10 border border-cyan-400 text-cyan-200 hover:bg-cyan-500/20 transition">
+                ⬇ Download Resume
+                </Button>
+                </a>
+
               </div>
             </div>
           </FadeIn2>

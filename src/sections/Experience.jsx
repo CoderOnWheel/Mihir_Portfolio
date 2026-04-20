@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 const experience = [
   {
-    role: "Data Engineer",
+    role: "Freelancer Data Engineer and Developer",
     company: "Kamchukarrr",
     time: "Oct 2023 - Present",
     desc: "Designed AWS-based data infrastructure, built ETL pipelines, reduced manual effort by 40%, and improved performance by 30%+.",

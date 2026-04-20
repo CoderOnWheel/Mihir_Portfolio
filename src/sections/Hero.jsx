@@ -16,7 +16,7 @@ const Hero = () => {
   };
 
   return (
-    <section
+    <section id="home"
       onMouseMove={handleMouseMove}
       className="min-h-screen flex items-center pt-24 relative overflow-hidden bg-black"
     >

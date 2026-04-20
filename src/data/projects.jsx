@@ -1,5 +1,21 @@
 export const projects = [
   {
+    title: "Data-pipeline-for-multi-source-sales-standardization",
+    type: "Backend System",
+    stack: "PySpark • SQL • AWS • Python ",
+    desc: "end-to-end data pipeline to ingest, clean, standardize, and aggregate sales data from multiple B2B vendors with inconsistent schemas and formats.",
+    tags: ["API", "CRUD", "Backend","Data Cleaning", "Data Modeling"],
+    github: "https://github.com/CoderOnWheel/Data-pipeline-for-multi-source-sales-standardization"
+  },
+  {
+    title: "Blinkit Business Insights Dashboard",
+    type: "BI Dashboard",
+    stack: "Power BI • SQL • Excel",
+    desc: "End-to-end business intelligence dashboard analyzing KPIs like delivery efficiency, customer satisfaction, and revenue performance.",
+    tags: ["Dashboard", "BI", "KPIs"],
+    github: "https://github.com/CoderOnWheel/Blinkit-Business-Insights-Dashboard"
+  },
+  {
     title: "Task Management REST API",
     type: "Backend System",
     stack: "Spring Boot • MySQL • JPA",
@@ -30,13 +46,6 @@ export const projects = [
     desc: "Analyzed financial datasets to detect anomalies and risk patterns using advanced SQL queries, joins, and window functions.",
     tags: ["Analytics", "Fraud Detection", "SQL"],
     github: "https://github.com/yourusername/financial-risk-analysis"
-  },
-  {
-    title: "Blinkit Business Insights Dashboard",
-    type: "BI Dashboard",
-    stack: "Power BI • SQL • Excel",
-    desc: "End-to-end business intelligence dashboard analyzing KPIs like delivery efficiency, customer satisfaction, and revenue performance.",
-    tags: ["Dashboard", "BI", "KPIs"],
-    github: "https://github.com/yourusername/blinkit-dashboard"
   }
+
 ];

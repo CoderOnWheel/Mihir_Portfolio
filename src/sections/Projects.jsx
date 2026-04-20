@@ -5,7 +5,7 @@ import { projects } from "../data/projects";
 
 const Projects = () => {
   return (
-    <section className="py-24 bg-black relative overflow-hidden">
+    <section id="projects" className="py-24 bg-black relative overflow-hidden">
 
       {/* grid background */}
       <div className="absolute inset-0 -z-10 opacity-10 bg-[linear-gradient(to_right,#00ffcc10_1px,transparent_1px),linear-gradient(to_bottom,#00ffcc10_1px,transparent_1px)] bg-[size:40px_40px]" />

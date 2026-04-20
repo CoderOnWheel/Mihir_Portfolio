@@ -30,7 +30,7 @@ const Contact = () => {
   }, [index]);
 
   return (
-    <section className="py-24 bg-black relative overflow-hidden">
+    <section id="contact" className="py-24 bg-black relative overflow-hidden">
 
       {/* background glow */}
       <div className="absolute inset-0 -z-10 bg-gradient-to-br from-purple-500/10 via-transparent to-blue-500/10 blur-3xl" />
